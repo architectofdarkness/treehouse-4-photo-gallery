@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lightbox Example</title>
+  <link rel="stylesheet" href="vendor/lightbox/css/lightbox.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <section>
+    <div class="search-box">
+      <input type="text" id="input" onkeyup="search()" placeholder="Search">
+    </div>
+    
+    <ul class="gallery">
+      <li>
+        <a href="img/01.jpg" data-lightbox="element" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+          <img class="example-image" src="img/01.jpg" alt=""/></a>
+      </li>
+      <li>
+        <a href="img/02.jpg" data-lightbox="element" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+          <img class="example-image" src="img/02.jpg" alt=""/></a>
+      </li>
+      <li>
+        <a href="img/03.jpg" data-lightbox="element" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+          <img class="example-image" src="img/03.jpg" alt=""/></a>
+      </li>
+      <li>
+        <a href="img/04.jpg" data-lightbox="element" data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today. ">
+          <img class="example-image" src="img/04.jpg" alt=""/></a>
+      </li>
+      <li>
+        <a href="img/05.jpg" data-lightbox="element" data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+          <img class="example-image" src="img/05.jpg" alt=""/></a>
+      </li>
+      <li>
+        <a href="img/06.jpg" data-lightbox="element" data-title="Fall is coming, I love when the leaves on the trees start to change color.">
+          <img class="example-image" src="img/06.jpg" alt=""/></a>
+      </li>
+      <li>
+        <a href="img/07.jpg" data-lightbox="element" data-title="I drove past this plantation yesterday, everything is so green!">
+          <img class="example-image" src="img/07.jpg" alt=""/></a>
+      </li>
+      <li>
+        <a href="img/08.jpg" data-lightbox="element" data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+          <img class="example-image" src="img/08.jpg" alt=""/></a>
+      </li>
+      <li>
+        <a href="img/09.jpg" data-lightbox="element" data-title="We enjoyed a quiet stroll down this countryside lane.">
+          <img class="example-image" src="img/09.jpg" alt=""/></a>
+      </li>
+      <li>
+        <a href="img/10.jpg" data-lightbox="element" data-title="Sunset at the coast! The sky turned a lovely shade of orange.">
+          <img class="example-image" src="img/10.jpg" alt=""/></a>
+      </li>
+      <li>
+        <a href="img/11.jpg" data-lightbox="element" data-title="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+          <img class="example-image" src="img/11.jpg" alt=""/></a>
+      </li>
+      <li>
+        <a href="img/12.jpg" data-lightbox="element" data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+          <img class="example-image" src="img/12.jpg" alt=""/></a>
+      </li>
+    </ul>
+  </section>
+  <script src="vendor/lightbox/js/lightbox-plus-jquery.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'showImageNumberLabel': false,
+      'maxHeight': 520
+    })
+  </script>
+</body>
+</html>
